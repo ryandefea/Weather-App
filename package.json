@@ -16,21 +16,30 @@
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
+    "dotenv-webpack": "^2.0.0",
     "eslint": "^6.3.0",
     "eslint-loader": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
     "ins": "0.0.0",
-    "jest": "^24.9.0",
+    "jest": "^28.1.1",
     "npm": "8.12.2",
     "style-loader": "^1.0.0",
     "webpack": "4.39.3",
     "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^4.9.2"
+    "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1"
   },
-  "description": ""
+  "description": "* _List all_\r * _the major technologies_\r * _you used in your project_\r * _here_",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryandefea/Weather-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryandefea/Weather-App/issues"
+  },
+  "homepage": "https://github.com/ryandefea/Weather-App#readme"
 }

@@ -1,8 +1,24 @@
-<!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
-  <title>Template</title>
+  <title>Weather</title>
 </head>
 <body>
+  <div class="container">
+    <h1>Get Weather Conditions From Anywhere!</h1>
+    <label for="city">Enter a city:</label>
+    <input id="city" type="text">
+    <label for="state">Enter a state:</label>
+    <input id="state" type="text">
+    <label for="longitude">Enter a longitude:</label>
+    <input id="longitude" type="text">
+    <label for="latitude">Enter a latitude:</label>
+    <input id="latitude" type="text">
+    <button class="btn-success" id="weatherLocation">Get Current Weather Conditions</button>
+    <div class="showErrors"></div>
+    <div class="showHumidity"></div>
+    <div class="showTemp"></div>
+    <div class="showSpeed"></div>
+    <div class="showSky"></div>
+  </div>
 </body>
 </html>
